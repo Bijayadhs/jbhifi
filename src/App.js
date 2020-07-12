@@ -9,6 +9,7 @@ import Home from './components/Home'
 import Products from './components/Products'
 
 function App() {
+  const product = ['A','B']
   return (
     <Router>
       <MainNav />
@@ -17,8 +18,8 @@ function App() {
           <Route exact path="/">
             <Home/>
             </Route> 
-          <Route path='/products'>
-            <Products/>
+          <Route path='/collection'>
+            <Products product={product}/>
             </Route> 
        </Switch>
 

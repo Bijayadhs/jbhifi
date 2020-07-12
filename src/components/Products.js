@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Products() {
+function Products(props) {
     return (
         <div>
-            SingleProductView
+            {props.product}
         </div>
     )
 }
