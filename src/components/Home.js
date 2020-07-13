@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import ProductList from './Product/ProductList'
 
 function Home() {
     return (
         <div>
-            HomePage
+            <ProductList  />
+            {/* <Carousal />
+            <Catalogue />
+            <WhatsHot/>
+            <IntrestFree />
+            <WatsHot />
+            <BuyClickDeliver /> */}
         </div>
     )
 }
