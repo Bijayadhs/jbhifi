@@ -1,5 +1,6 @@
 import React from 'react';
 import './Product.css';
+// import SingleProduct from './SingleProduct';
 
 
 function Products({p}) {

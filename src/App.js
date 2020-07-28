@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-
+import SingleProduct from './components/Product/SingleProduct'
 import Footer from './components/Footer'
 import MainNav from './components/MainNav'
 import ProductNav from './components/ProductNav'
 import Home from './components/Home'
-import Product from './components/Product/Product'
+// import Product from './components/Product/Product'
 
 function App() {
   return (
@@ -16,10 +16,11 @@ function App() {
       <Switch>
           <Route exact path="/">
             <Home/>
-            </Route> 
-          <Route path='/collection'>
-            <Product/>
-            </Route> 
+          </Route> 
+          
+          <Route path='/product/'>
+            <SingleProduct/>
+          </Route> 
        </Switch>
 
     <Footer />

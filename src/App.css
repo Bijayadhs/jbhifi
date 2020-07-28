@@ -12,7 +12,7 @@ li{
   list-style: none;
   display: flex;
   padding: 5px;
-  border-right: 1px solid #333;
+  /* border-right: 1px solid #333; */
 }
 
 .main-nav{
