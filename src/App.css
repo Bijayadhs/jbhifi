@@ -11,18 +11,10 @@ body{
   font-family: 'Roboto',sans-serif;
 }
 
-li{
-  list-style: none;
-  display: flex;
-  padding: 5px;
-  /* border-right: 1px solid #333; */
-}
-a{
-  text-decoration: none;
-}
 
-/* Main top nav */
-.mainNav{
+
+/* Main Top Navbar */
+.main-nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,22 +22,52 @@ a{
   height: 60px;
 }
 
-.mainNav__logo{
+.main-nav__logo{
   width: 250px;
   margin-left: -20px;
   }
 
-  .mainNav__Search{
-
+  .main-nav__search{
+    border: 1px solid #bbb;
+    background-color:#fff;
+    padding: 10px;
+    color: #ccc;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
   }
+  .main-nav__input{
+    margin-left: 10px;
+      border: none;
+      outline: none;
+      background-color:#fff;
+  }
+  ::placeholder {
+    color: #aaa;
+  }
+  
 
-  ul{
+  .main-nav__list{
     display: flex;
   }
 
-.nav-link{
-  text-decoration: none;
+
+.main-nav__list li{
+  list-style: none;
+  display: flex;
+  padding: 5px;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 14px;
 }
+.main-nav__list li a .fas{ 
+  margin-right: 5px;
+}
+
+.main-nav__list li a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* Product Navbar */
 
 .product-nav{
   display: flex;
@@ -58,6 +80,7 @@ a{
   background-color: #000;
 }
 .nav-link{
+  text-decoration: none;
   color: #fff;
   font-size: 12px;
   font-weight: 700;

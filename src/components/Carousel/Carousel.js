@@ -52,7 +52,7 @@ function Carousel() {
             <div className="screen">      
                     <div className="banner">
                      <img key={banner[selected]} src={`/img/${banner[selected]}.webp`} alt={banner[selected]}/>
-                     <div className="lineOfCircle">
+                     <div className="slide">
                         <div className={selected===0?'circle selected':'circle'}></div>
                         <div className={selected===1?'circle selected':'circle'}></div>
                         <div className={selected===2?'circle selected':'circle'}></div>
