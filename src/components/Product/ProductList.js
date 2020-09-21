@@ -1,6 +1,7 @@
 import React from 'react'
 import Product from './Product'
 import AppleImage from '../../img/apple.jpg'
+import {v4 as uuid} from 'uuid';
 
 function ProductList() {
     const product=[
@@ -56,7 +57,7 @@ function ProductList() {
     return (
         <div className="products">
             
-            {product.map((p) => <Product p={p}/>
+            {product.map((p) => <Product key={uuid()}  p={p}/>
                 )}
             
         </div>
