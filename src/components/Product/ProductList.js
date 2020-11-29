@@ -1,64 +1,16 @@
-import React from 'react'
-import Product from './Product'
-import AppleImage from '../../img/apple.jpg'
+import React from 'react';
+import ProductCard from './ProductCard';
+import {productData} from './data';
+import {v4 as uuidv4} from 'uuid'
 
-function ProductList() {
-    const product=[
-        {
-            "onSale": true,
-            "logotitle":"../../img/apple.png",
-             "productname":"Apple",
-             "rating":4.5,
-             "image":AppleImage,
-             "ticket":500,
-             "off":100
-        },
-        {
-            "onSale": true,
-            "logotitle":"/img/ffalcon.png",
-             "productname":"Falcon",
-             "rating":4.5,
-             "image":"/img/falcon.jpg",
-             "ticket":500,
-             "off":100
-        },
-        {
-            "onSale": false,
-            "logotitle":"/img/gopro.png",
-             "productname":"GoPro",
-             "rating":4.5,
-             "image":"/img/gopro.jpg",
-             "ticket":500,
-             "off":100
-        },
-        {
-            "onSale": true,
-            "logotitle":"/img/samsung.png",
-             "productname":"Samsung",
-             "rating":4.5,
-             "image":"/img/samsung.jpg",
-             "ticket":500,
-             "off":100
-        },
-        {
-            "onSale": false,
-            "logotitle":"/img/sony.png",
-             "productname":"SONY",
-             "rating":4.5,
-             "image":"/img/sony.jpg",
-             "ticket":500,
-             "off":100
-        }
-        ]
+function ProductList({setHot}) {
     
 
-        
     return (
-        <div className="products">
-            
-            {product.map((p) => <Product p={p}/>
-                )}
-            
+        <div className="products">            
+            {productData.map((card) => 
+                <ProductCard  key={uuidv4()} card={card} setHot={setHot}/>
+                )}            
         </div>
     )
 }

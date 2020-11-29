@@ -1,31 +1,76 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body{
-  background-color: #eee;
-  font-family: "Helvetica Neue",Helvetica,Arial;
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 40px;
 }
 
-li{
-  list-style: none;
+body {
+  background-color: #eee;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: black;
+  font-size: .9rem;
   display: flex;
-  padding: 5px;
+}
+
+i {
+  margin-right: 6px;
+}
+
+li {
+  list-style: none;
+  padding: 2px;
+
+  /* display: flex; */
   /* border-right: 1px solid #333; */
 }
 
-.main-nav{
+/* Main Top Navbar */
+.main-nav {
   display: flex;
-  background-color:#FFEC0F;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #FFEC0F;
   height: 60px;
 }
 
-.nav-link{
-  text-decoration: none;
+.main-nav__logo {
+  background: url('/img/logo.svg') center center/cover;
+  width: 250px;
+  margin-left: -20px;
+
 }
 
-.product-nav{
+.main-nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: flex-1;
+}
+
+.main-nav__search {
+  width: 225px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Second Navbar for product */
+
+.product-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,16 +80,21 @@ li{
   height: 50px;
   background-color: #000;
 }
-.nav-link{
+
+.nav-link {
   color: #fff;
   font-size: 12px;
   font-weight: 700;
   text-align: center;
-  line-height: 1.2; 
-  
+  line-height: 1.2;
+
 
 }
-.products{
-  display: flex;
-  flex-wrap: wrap;
+
+
+
+.discount {
+  font-weight: 400;
+  font-size: .8rem;
+  color: #1b1b1b;
 }

@@ -1,0 +1,22 @@
+.catelogue{ 
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catelogue > img{
+    width: 32%;
+    margin: 5px;
+}
+
+@media screen and (max-width:600px){
+    .catelogue{
+    flex-direction : column;
+    }
+    .catelogue > img{
+    width: 500px;
+    height: 200px;
+    }
+}

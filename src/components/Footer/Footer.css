@@ -1,0 +1,62 @@
+/* Signup Offer */
+.footer{ 
+    max-height: 300px;
+}
+.signup{ 
+    background-color: #FFEC0F;
+}
+.signup .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer Navbar */
+.payment{
+    margin:10px 0;
+    display: flex;
+    align-items: center;
+}
+.payment__text{ 
+    color: #bfbfbf;
+    margin-right: 10px;
+}
+.payment__card{ 
+    display: flex;    
+}
+.payment__card >li{
+    border: 1px solid #FFEC0F;
+    margin: 2px;
+    font-size: .6rem;
+    color: white;
+}
+
+ .primary-navbar{
+     background-color: #000;
+     color: white;
+ }
+ .secondary-navbar{
+     background-color: #1b1b1b;
+     color: #bfbfbf;
+     font-size: 0.7rem;
+ }
+.footer-list{
+    display: flex;
+}
+
+
+
+.terms-policy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-navbar .footer-list >li{
+    font-size: .8rem;
+}
+.primary-navbar .footer-list .footer-logo{
+    color: #FFEC0F;
+    font-size: 1.7rem;
+    font-weight: 900;
+    width: 120px;
+}

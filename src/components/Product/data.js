@@ -1,15 +1,16 @@
-[
+export const productData = [
     {
         "onSale": true,
+        "hot": true,
         "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
+        "title":"img/samsung.png",
         "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
         "rating": 4.2,
         "review":56,
         "image": "/img/samsung.jpg",
         "ticketPrice": 2895,
         "offPrice": 300,
-        "isLiked":true,        
+        "isLiked":false,        
         "model":"QA75Q60TAWXXY",
         "sku":434217,
         "desc":["Quantum Dot - Unleash vivid colour at a range of brightness levels.",
@@ -20,9 +21,50 @@
 
     },
     {
-        "onSale": true,
+        "onSale": false,
+        "hot": true,
         "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
+        "title":"img/samsung.png",
+        "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
+        "rating": 4.2,
+        "review":56,
+        "image": "/img/samsung.jpg",
+        "ticketPrice": 2895,
+        "offPrice": 300,
+        "isLiked":true,        
+        "model":"QA75Q60TAWXXY",
+        "sku":434217,
+        "desc":["Quantum Dot - Unleash vivid colour at a range of brightness levels.",
+            "One Remote Control - Control multiple devices with one remote control*",
+            "Smart Connectivity - Smart made simple from setup to streaming"],
+        "overview":"Enter a world saturated with colour and sharpened to refreshing clarity, all of it made possible through the power of Quantum Dot technology. An intuitive Smart TV interface learns what you like and suggests exciting new content. And if you’re into gaming, Game Enhancer automatically neutralizes annoyances like tearing and stuttering.",
+        "details" : {"screenSize": 75,"screenType":"QLED - Flat"}
+
+    },{
+        "onSale": false,
+        "hot": true,
+        "offer": {"onOffer": true,"giftCard": false},
+        "title":"img/samsung.png",
+        "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
+        "rating": 4.2,
+        "review":56,
+        "image": "/img/samsung.jpg",
+        "ticketPrice": 2895,
+        "offPrice": 300,
+        "isLiked":false,        
+        "model":"QA75Q60TAWXXY",
+        "sku":434217,
+        "desc":["Quantum Dot - Unleash vivid colour at a range of brightness levels.",
+            "One Remote Control - Control multiple devices with one remote control*",
+            "Smart Connectivity - Smart made simple from setup to streaming"],
+        "overview":"Enter a world saturated with colour and sharpened to refreshing clarity, all of it made possible through the power of Quantum Dot technology. An intuitive Smart TV interface learns what you like and suggests exciting new content. And if you’re into gaming, Game Enhancer automatically neutralizes annoyances like tearing and stuttering.",
+        "details" : {"screenSize": 75,"screenType":"QLED - Flat"}
+
+    },{
+        "onSale": true,
+        "hot": true,
+        "offer": {"onOffer": true,"giftCard": false},
+        "title":"img/samsung.png",
         "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
         "rating": 4.2,
         "review":56,
@@ -40,8 +82,10 @@
 
     },{
         "onSale": true,
+        "hot": false,
+
         "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
+        "title":"img/samsung.png",
         "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
         "rating": 4.2,
         "review":56,
@@ -59,8 +103,9 @@
 
     },{
         "onSale": true,
+        "hot": false,
         "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
+        "title":"img/samsung.png",
         "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
         "rating": 4.2,
         "review":56,
@@ -78,8 +123,9 @@
 
     },{
         "onSale": true,
+        "hot": false,
         "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
+        "title":"img/samsung.png",
         "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
         "rating": 4.2,
         "review":56,
@@ -97,8 +143,9 @@
 
     },{
         "onSale": true,
+        "hot": false,
         "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
+        "title":"img/samsung.png",
         "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
         "rating": 4.2,
         "review":56,
@@ -116,8 +163,9 @@
 
     },{
         "onSale": true,
+        "hot": false,
         "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
+        "title":"img/samsung.png",
         "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
         "rating": 4.2,
         "review":56,
@@ -135,46 +183,9 @@
 
     },{
         "onSale": true,
+        "hot": false,
         "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
-        "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
-        "rating": 4.2,
-        "review":56,
-        "image": "/img/samsung.jpg",
-        "ticketPrice": 2895,
-        "offPrice": 300,
-        "isLiked":true,        
-        "model":"QA75Q60TAWXXY",
-        "sku":434217,
-        "desc":["Quantum Dot - Unleash vivid colour at a range of brightness levels.",
-            "One Remote Control - Control multiple devices with one remote control*",
-            "Smart Connectivity - Smart made simple from setup to streaming"],
-        "overview":"Enter a world saturated with colour and sharpened to refreshing clarity, all of it made possible through the power of Quantum Dot technology. An intuitive Smart TV interface learns what you like and suggests exciting new content. And if you’re into gaming, Game Enhancer automatically neutralizes annoyances like tearing and stuttering.",
-        "details" : {"screenSize": 75,"screenType":"QLED - Flat"}
-
-    },{
-        "onSale": true,
-        "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
-        "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
-        "rating": 4.2,
-        "review":56,
-        "image": "/img/samsung.jpg",
-        "ticketPrice": 2895,
-        "offPrice": 300,
-        "isLiked":true,        
-        "model":"QA75Q60TAWXXY",
-        "sku":434217,
-        "desc":["Quantum Dot - Unleash vivid colour at a range of brightness levels.",
-            "One Remote Control - Control multiple devices with one remote control*",
-            "Smart Connectivity - Smart made simple from setup to streaming"],
-        "overview":"Enter a world saturated with colour and sharpened to refreshing clarity, all of it made possible through the power of Quantum Dot technology. An intuitive Smart TV interface learns what you like and suggests exciting new content. And if you’re into gaming, Game Enhancer automatically neutralizes annoyances like tearing and stuttering.",
-        "details" : {"screenSize": 75,"screenType":"QLED - Flat"}
-
-    },{
-        "onSale": true,
-        "offer": {"onOffer": true,"giftCard": false},
-        "title":"SAMSUNG",
+        "title":"img/samsung.png",
         "product": "Samsung Q60T 75\" QLED Ultra HD 4K Smart TV [2020]",
         "rating": 4.2,
         "review":56,
