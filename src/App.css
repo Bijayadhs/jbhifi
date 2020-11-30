@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-* {
-=======
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
 
 *{
->>>>>>> cd69a6d0c443db27b9d6d20abb2dccee8a660e3c
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,65 +14,6 @@
 
 body {
   background-color: #eee;
-<<<<<<< HEAD
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: 700;
-}
-
-a {
-  text-decoration: none;
-  margin-right: 15px;
-  color: black;
-  font-size: .9rem;
-  display: flex;
-}
-
-i {
-  margin-right: 6px;
-}
-
-li {
-  list-style: none;
-  padding: 2px;
-
-  /* display: flex; */
-  /* border-right: 1px solid #333; */
-}
-
-/* Main Top Navbar */
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  background-color: #FFEC0F;
-  height: 60px;
-}
-
-.main-nav__logo {
-  background: url('/img/logo.svg') center center/cover;
-  width: 250px;
-  margin-left: -20px;
-
-}
-
-.main-nav__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: flex-1;
-}
-
-.main-nav__search {
-  width: 225px;
-  height: 40px;
-  margin: 10px;
-  padding: 5px;
-}
-
-/* Second Navbar for product */
-
-.product-nav {
-=======
   font-family: "Helvetica Neue",Helvetica,Arial;
   font-family: 'Roboto',sans-serif;
 }
@@ -115,7 +50,7 @@ li {
   ::placeholder {
     color: #aaa;
   }
-  
+
 
   .main-nav__list{
     display: flex;
@@ -130,7 +65,7 @@ li {
   font-weight: bold;
   font-size: 14px;
 }
-.main-nav__list li a .fas{ 
+.main-nav__list li a .fas{
   margin-right: 5px;
 }
 
@@ -142,7 +77,6 @@ li {
 /* Product Navbar */
 
 .product-nav{
->>>>>>> cd69a6d0c443db27b9d6d20abb2dccee8a660e3c
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -152,13 +86,8 @@ li {
   height: 50px;
   background-color: #000;
 }
-<<<<<<< HEAD
-
-.nav-link {
-=======
 .nav-link{
   text-decoration: none;
->>>>>>> cd69a6d0c443db27b9d6d20abb2dccee8a660e3c
   color: #fff;
   font-size: 12px;
   font-weight: 700;
