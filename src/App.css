@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+*{
+>>>>>>> cd69a6d0c443db27b9d6d20abb2dccee8a660e3c
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -14,6 +20,7 @@
 
 body {
   background-color: #eee;
+<<<<<<< HEAD
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
@@ -71,6 +78,71 @@ li {
 /* Second Navbar for product */
 
 .product-nav {
+=======
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  font-family: 'Roboto',sans-serif;
+}
+
+
+
+/* Main Top Navbar */
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#FFEC0F;
+  height: 60px;
+}
+
+.main-nav__logo{
+  width: 250px;
+  margin-left: -20px;
+  }
+
+  .main-nav__search{
+    border: 1px solid #bbb;
+    background-color:#fff;
+    padding: 10px;
+    color: #ccc;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+  }
+  .main-nav__input{
+    margin-left: 10px;
+      border: none;
+      outline: none;
+      background-color:#fff;
+  }
+  ::placeholder {
+    color: #aaa;
+  }
+  
+
+  .main-nav__list{
+    display: flex;
+  }
+
+
+.main-nav__list li{
+  list-style: none;
+  display: flex;
+  padding: 5px;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.main-nav__list li a .fas{ 
+  margin-right: 5px;
+}
+
+.main-nav__list li a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* Product Navbar */
+
+.product-nav{
+>>>>>>> cd69a6d0c443db27b9d6d20abb2dccee8a660e3c
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -80,8 +152,13 @@ li {
   height: 50px;
   background-color: #000;
 }
+<<<<<<< HEAD
 
 .nav-link {
+=======
+.nav-link{
+  text-decoration: none;
+>>>>>>> cd69a6d0c443db27b9d6d20abb2dccee8a660e3c
   color: #fff;
   font-size: 12px;
   font-weight: 700;

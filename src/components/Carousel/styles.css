@@ -1,0 +1,43 @@
+.carousel{
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.screen{
+    width: 65%;
+    height: 240px;
+    background-color: #fff;
+    position: relative;
+}
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.arrow{
+  margin:40px;
+  font-size: 2rem;
+  color: #bbb;
+}
+
+.slide{
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+}
+.circle{
+    margin: 5px;
+    width: 8px;
+    height: 8px; 
+    border:1px solid #333;  
+    border-radius: 50%; 
+
+}
+.circle.selected{
+    background-color:#333;
+}

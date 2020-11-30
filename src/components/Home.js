@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import ProductList from "./Product/ProductList";
 import Ad from "./Ad/Ad";
@@ -43,6 +44,27 @@ function Home() {
       </div>
     </div>
   );
+=======
+import React from 'react';
+import ProductList from './Product/ProductList'
+import Carousel from './Carousel/Carousel'
+
+
+function Home() {
+    return (
+        <div>
+                        <Carousel />
+
+            <ProductList  />
+
+            {/* <Carousal />
+            <WhatsHot/>
+            <IntrestFree />
+            <WatsHot />
+            <BuyClickDeliver /> */}
+        </div>
+    )
+>>>>>>> cd69a6d0c443db27b9d6d20abb2dccee8a660e3c
 }
 
 export default Home;
