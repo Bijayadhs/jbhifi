@@ -14,7 +14,6 @@
 
 body {
   background-color: #eee;
-  font-family: "Helvetica Neue",Helvetica,Arial;
   font-family: 'Roboto',sans-serif;
 }
 
@@ -28,6 +27,7 @@ body {
   background-color:#FFEC0F;
   height: 60px;
 }
+.menu-bar{display:none;margin:0 10px;}
 
 .main-nav__logo{
   width: 250px;
@@ -78,6 +78,7 @@ body {
 
 .product-nav{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0 4px;
@@ -94,6 +95,15 @@ body {
   text-align: center;
   line-height: 1.2;
 
+
+}
+/* different screen size responsive  */
+@media screen and (max-width:760px){
+  .product-nav{
+      display: none;
+  }
+  .menu-bar{display:block;}
+  .main-nav__list{display: none;}
 
 }
 

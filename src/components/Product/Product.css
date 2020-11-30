@@ -3,29 +3,43 @@
 }
 
 .products{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .productCard{
-    width: 234px;
-    height: 440px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
     border: 1px solid #ccc;
     margin: 20px;
   }
+  .productName{
+      font-size: 14px;
+  }
+  .rating{
+      color: rgb(173, 170, 170);
+  }
+  .image{width: 100%;flex:1;}
 
-.onSale{
+.sale{
     font-family: 'Paytone One', 'Helvetica Neue';
     width: 100%;
-    height: 38;
+    height: 46;
     color: #fff;
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
     padding: 8px;
-    background-color: red;
     clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
+
+}
+.on-sale{    background-color: red;
+}
+.new-release{
+    background-color: black;
+    color: yellow;
 
 }
 
@@ -34,12 +48,37 @@
     width: 60%
 }
 
+.product_footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.square{
+    width:45%;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 0 0 black;
+    font-size: 12px;
+    font-weight: 900;
+    margin: 10px;
+}
+.back{
+    position: absolute;
+    width: 55%;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    background-color: #FFEC0F;
+}
+
+
 .wishlist{
-    
+
 }
-img{
-    width: 100%;
-}
+
 
 
 
@@ -50,20 +89,38 @@ img{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 0.3fr 2fr 0.7fr;
     gap: 1px 1px;
-    grid-template-areas: 
-    
+    grid-template-areas:
+
     "product__history product__history    product__history    product__checkout"
     "product__image   product_description product_description product__checkout"
     "product__scroll . . product__checkout"
     ;
   }
-  
+
   .product__image { grid-area: product__image; }
-  
+
   .product_description { grid-area: product_description; }
-  
+
   .product__checkout { grid-area: product__checkout; }
-  
+
   .product__scroll { grid-area: product__scroll; }
-  
+
   .product__history { grid-area: product__history; }
+
+
+
+
+
+  /* different screen size responsive  */
+  @media screen and (max-width:760px){
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+    @media screen and (max-width:380px){
+        .products{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+  }

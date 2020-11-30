@@ -44,25 +44,27 @@ function Carousel() {
 
   return (
     <div className="carousel">
-      {/* arrow left */}
-      <div className="arrow left" onClick={moveLeft}>
-        <FontAwesomeIcon icon={faArrowAltCircleLeft} size="lg" />
-      </div>
-      {/* slidding screen */}
-      <div className="screen">
-        <div className="banner">
-          <img key={banner[selected]} src={`/img/${banner[selected]}.webp`} alt={banner[selected]} />
-          <div className="slide">
-            <div className={selected === 0 ? 'circle selected' : 'circle'}></div>
-            <div className={selected === 1 ? 'circle selected' : 'circle'}></div>
-            <div className={selected === 2 ? 'circle selected' : 'circle'}></div>
-            <div className={selected === 3 ? 'circle selected' : 'circle'}></div>
+      <div className="container">
+        {/* arrow left */}
+        <div className="arrow left" onClick={moveLeft}>
+          <FontAwesomeIcon icon={faArrowAltCircleLeft} size="lg" />
+        </div>
+        {/* slidding screen */}
+        <div className="screen">
+          <div className="banner">
+            <img key={banner[selected]} src={`/img/${banner[selected]}.webp`} alt={banner[selected]} />
+            <div className="slide">
+              <div className={selected === 0 ? 'circle selected' : 'circle'}></div>
+              <div className={selected === 1 ? 'circle selected' : 'circle'}></div>
+              <div className={selected === 2 ? 'circle selected' : 'circle'}></div>
+              <div className={selected === 3 ? 'circle selected' : 'circle'}></div>
+            </div>
           </div>
         </div>
-      </div>
-      {/* arrow right */}
-      <div className=" arrow right" onClick={moveRight}>
-        <FontAwesomeIcon icon={faArrowAltCircleRight} size="lg" />
+        {/* arrow right */}
+        <div className=" arrow right" onClick={moveRight}>
+          <FontAwesomeIcon icon={faArrowAltCircleRight} size="lg" />
+        </div>
       </div>
     </div>
   )

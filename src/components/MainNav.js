@@ -1,9 +1,14 @@
-import React from 'react'
-import logo from '../img/jb-hi-fi-logo-vector.svg'
+import React from 'react';
+import logo from '../img/jb-hi-fi-logo-vector.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 function MainNav() {
   return (
     <div className="main-nav">
+      <div className="menu-bar">
+        <FontAwesomeIcon icon={faBars} size="lg" /></div>
       <div className="main-nav__logo">
         <img src={logo} alt='logo' />
       </div>
